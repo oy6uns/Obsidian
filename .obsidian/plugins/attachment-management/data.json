@@ -1,0 +1,18 @@
+{
+  "attachPath": {
+    "attachmentRoot": "./Img/${notepath}/${notename}",
+    "saveAttE": "obsFolder",
+    "attachmentPath": "./Img/${notepath}/${notename}",
+    "attachFormat": "IMG-${date}",
+    "type": "GLOBAL"
+  },
+  "dateFormat": "YYYYMMDDHHmmss",
+  "excludeExtensionPattern": "",
+  "autoRenameAttachment": true,
+  "excludedPaths": "",
+  "excludePathsArray": [],
+  "excludeSubpaths": false,
+  "originalNameStorage": [],
+  "overridePath": {},
+  "disableNotification": false
+}

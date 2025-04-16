@@ -1,0 +1,18 @@
+{
+  "alwaysUpdateLinks": true,
+  "showLineNumber": false,
+  "smartIndentList": true,
+  "strictLineBreaks": false,
+  "spellcheck": false,
+  "trashOption": "local",
+  "attachmentFolderPath": "Img",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 80
+  },
+  "livePreview": true,
+  "defaultViewMode": "source"
+}

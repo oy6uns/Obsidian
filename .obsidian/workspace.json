@@ -1,0 +1,243 @@
+{
+  "main": {
+    "id": "5cdab5605c7feab6",
+    "type": "split",
+    "children": [
+      {
+        "id": "3688827934b94b50",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8bea9564968a4ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SNU ViBA Lab/논문 아이디어.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "논문 아이디어"
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a1dba3645e9c7321",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce1577d214547f01",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c092cc703a246da",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "25e728d562dc5319",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "passi",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "448c624d6800f482",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "3cdb2c61284500bb",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Spaces"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 252.50247192382812
+  },
+  "right": {
+    "id": "3f4c9c682dafe8b2",
+    "type": "split",
+    "children": [
+      {
+        "id": "b93cd66fc50b87e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "637c0864860d15b4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Article/xv6 과제/02 Light-weight Process.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "02 Light-weight Process의 백링크"
+            }
+          },
+          {
+            "id": "0abdddfbeb189eb9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Weekly Notes/Template.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Template의 나가는 링크"
+            }
+          },
+          {
+            "id": "da0e3ec1ea81acca",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f42d475717da3b51",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Article/xv6 과제/02 Light-weight Process.md"
+              },
+              "icon": "lucide-list",
+              "title": "02 Light-weight Process 개요"
+            }
+          },
+          {
+            "id": "a0481cad443525ce",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "templater-obsidian:Templater": false,
+      "remotely-save:Remotely Save": false,
+      "periodic-notes:Open this week": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "d8bea9564968a4ed",
+  "lastOpenFiles": [
+    "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 2",
+    "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계",
+    "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프",
+    "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/사전 공부(C, C++)/C",
+    "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/사전 공부(C, C++)",
+    "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lab/Lab 3",
+    "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lab",
+    "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Lec 3 (9.9)",
+    "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Lec 12 (10.14)",
+    "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_20 MVCC",
+    "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_19 OCC",
+    "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lecture 2.md",
+    "SNU GSDS Course Work/1학년 2학기 (25-1)/AI를 위한 윤리적 함의/무제.md",
+    "Img/df.md",
+    "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lecture 1. Course Introduction.md",
+    "SNU ViBA Lab/Graph Neural Network 주요 목차 및 개념.md",
+    "SNU ViBA Lab/논문 아이디어.md",
+    "Article/xv6 과제/03 File system.md",
+    "Article/xv6 과제/xv6 코드로 살펴보는 OS/System Call 처리 과정.md",
+    "Article/xv6 과제/01 MLFQ and Stride Scheduling.md",
+    "Article/xv6 과제/02 Light-weight Process.md",
+    "SNU VLDB Lab/논문 세미나/1.31.md",
+    "Img/Img/SNU VLDB Lab/논문 세미나/1.31/IMG-20250131190150.png",
+    "Img/Img/SNU VLDB Lab/논문 세미나/1.31/IMG-20250131184610.png",
+    "Img/Img/SNU VLDB Lab/논문 세미나/1.31/IMG-20250131170925.png",
+    "SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Lec 18, 19 (Transaction).md",
+    "SNU VLDB Lab/논문 세미나/11.16.md",
+    "SNU VLDB Lab/논문 세미나/Two Birds With One Stone.md",
+    "SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/C/Day 1.md",
+    "Img/Positional Encoding.md",
+    "SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/WAL.md",
+    "SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 2.md",
+    "SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 1.md",
+    "SNU VLDB Lab/논문 세미나/연사 초청/25.01.23. Vector Search.md",
+    "Img/Img/Article/xv6 과제/xv6 코드로 살펴보는 OS/System Call 처리 과정/IMG-20250123124959.png",
+    "컴퓨터 네트워킹/SNMP NetConf.md",
+    "컴퓨터 네트워킹/CH1. Introduction.md",
+    "SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 3.md",
+    "Img/Img/SNU GSDS/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 3/IMG-20250313142326.png",
+    "Img/Img/SNU GSDS/1학년 1학기/부트캠프/확률과 통계/Day 3/IMG-20250304110004-1.png",
+    "Img/Img/SNU GSDS/1학년 1학기/부트캠프/확률과 통계/Day 3/IMG-20250304110004.png",
+    "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 2/IMG-20250416150919.png",
+    "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 2/IMG-20250416150918-3.png",
+    "Img/Img/SNU GSDS/1학년 1학기/부트캠프/확률과 통계/Day 2/IMG-20250304110017-1.png",
+    "SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/Ch2, 3 Review of CFDS.md",
+    "SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/Ch7 Pointers and References.md",
+    "무제 파일.canvas",
+    "Lab Intern/Stuff/Untitled.canvas",
+    "무제 파일 1.canvas",
+    "Untitled 1.canvas"
+  ]
+}

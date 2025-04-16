@@ -1,0 +1,62 @@
+#### This Week:
+<% tp.date.now("YYYY-MM-DD") %> ~ <% tp.date.now("YYYY-MM-DD", +6) %>
+
+## 🌟 이주의 목표
+1. 
+
+## 🗓️ Daily Planner
+### <% tp.date.now("YYYY-MM-DD") %> (Monday)
+- **할 일**
+  - [ ] 
+  - [ ] 
+  - [ ] 
+- **메모**
+  - 
+
+### <% tp.date.now("YYYY-MM-DD", +1) %> (Tuesday)
+- **할 일**
+  - [ ] 
+  - [ ] 
+  - [ ] 
+- **메모**
+  - 
+
+### <% tp.date.now("YYYY-MM-DD", +2) %> (Wednesday)
+- **할 일**
+  - [ ] 
+  - [ ] 
+  - [ ] 
+- **메모**
+  - 
+
+### <% tp.date.now("YYYY-MM-DD", +3) %> (Thursday)
+- **할 일**
+  - [ ] 
+  - [ ] 
+  - [ ] 
+- **메모**
+  - 
+
+### <% tp.date.now("YYYY-MM-DD", +4) %> (Friday)
+- **할 일**
+  - [ ] 
+  - [ ] 
+  - [ ] 
+- **메모**
+  - 
+
+### <% tp.date.now("YYYY-MM-DD", +5) %> (Saturday)
+- **할 일**
+  - [ ] 
+  - [ ] 
+  - [ ] 
+- **메모**
+  - 
+
+### <% tp.date.now("YYYY-MM-DD", +6) %> (Sunday)
+- **할 일**
+  - [ ] 
+  - [ ] 
+  - [ ] 
+- **메모**
+  - 
