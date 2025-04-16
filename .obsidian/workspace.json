@@ -166,13 +166,23 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "47264958c59fc6de",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,10 +194,11 @@
       "templater-obsidian:Templater": false,
       "remotely-save:Remotely Save": false,
       "periodic-notes:Open this week": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d8bea9564968a4ed",
+  "active": "0c092cc703a246da",
   "lastOpenFiles": [
     "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 2",
     "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계",
