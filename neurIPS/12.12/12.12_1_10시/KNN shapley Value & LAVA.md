@@ -1,7 +1,7 @@
 # Data Valuation
 
 #### How to quantify data contribution?
-![[스크린샷 2023-12-12 오전 1.16.51.png]]
+![](스크린샷%202023-12-12%20오전%201.16.51.png)
 ## Machine Learning 측정 방법
 
 ## LOO(Leave-One-Out)

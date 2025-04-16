@@ -4,10 +4,10 @@
 ![[스크린샷 2024-12-10 오전 3.42.15.png]]
 ![[Img/Img/SNU GSDS/1학년 1학기/MLDL1(머신러닝&딥러닝)/FinalTerm Summary/IMG-20250304110005-1.png]]
 ## 14. CNN
-![[Img/Img/SNU GSDS/1학년 1학기/MLDL1(머신러닝&딥러닝)/FinalTerm Summary/IMG-20250304110005-2.png]]
+![Img/Img/SNU GSDS/1학년 1학기/MLDL1(머신러닝&딥러닝)/FinalTerm Summary/IMG-20250304110005-2.png](IMG-20250304110005-2.png)
 ## 16. Training NN2
-![[Img/Img/SNU GSDS/1학년 1학기/MLDL1(머신러닝&딥러닝)/FinalTerm Summary/IMG-20250304110007.png]]
-![[Img/Img/SNU GSDS/1학년 1학기/MLDL1(머신러닝&딥러닝)/FinalTerm Summary/IMG-20250304110008.png]]
+![Img/Img/SNU GSDS/1학년 1학기/MLDL1(머신러닝&딥러닝)/FinalTerm Summary/IMG-20250304110007.png](IMG-20250304110007.png)
+![Img/Img/SNU GSDS/1학년 1학기/MLDL1(머신러닝&딥러닝)/FinalTerm Summary/IMG-20250304110008.png](IMG-20250304110008.png)
 #### problems with SGD
 1. Jittering
    손실함수가 특정 방향으로는 빠르게 변화하고, 다른 방향으로는 천천히 변할 때 발생한다. 
@@ -18,7 +18,7 @@
    미니 배치 기반 Gradient가 정확하지 않다. (계산량의 한계 때문에 어쩔 수 없이)
    
 ## 18. RNN2
-![[Img/Img/SNU GSDS/1학년 1학기/MLDL1(머신러닝&딥러닝)/FinalTerm Summary/IMG-20250304110009.png]]![[Img/Img/SNU GSDS/1학년 1학기/MLDL1(머신러닝&딥러닝)/FinalTerm Summary/IMG-20250304110017.png]]![[Img/Img/SNU GSDS/1학년 1학기/MLDL1(머신러닝&딥러닝)/FinalTerm Summary/IMG-20250304110017-1.png]]![[IMG-20241206003026.png]]
+![Img/Img/SNU GSDS/1학년 1학기/MLDL1(머신러닝&딥러닝)/FinalTerm Summary/IMG-20250304110009.png](IMG-20250304110009.png)![Img/Img/SNU GSDS/1학년 1학기/MLDL1(머신러닝&딥러닝)/FinalTerm Summary/IMG-20250304110017.png](Img/IMG-20250304110017.png)![Img/Img/SNU GSDS/1학년 1학기/MLDL1(머신러닝&딥러닝)/FinalTerm Summary/IMG-20250304110017-1.png](Img/IMG-20250304110017-1.png)![[IMG-20241206003026.png]]
 ## 19. Attention
-![[Img/Img/SNU GSDS/1학년 1학기/MLDL1(머신러닝&딥러닝)/FinalTerm Summary/IMG-20250304110018.png]]
-![[Img/Img/SNU GSDS/1학년 1학기/MLDL1(머신러닝&딥러닝)/FinalTerm Summary/IMG-20250304110018-1.png]]
+![Img/Img/SNU GSDS/1학년 1학기/MLDL1(머신러닝&딥러닝)/FinalTerm Summary/IMG-20250304110018.png](IMG-20250304110018.png)
+![Img/Img/SNU GSDS/1학년 1학기/MLDL1(머신러닝&딥러닝)/FinalTerm Summary/IMG-20250304110018-1.png](IMG-20250304110018-1.png)

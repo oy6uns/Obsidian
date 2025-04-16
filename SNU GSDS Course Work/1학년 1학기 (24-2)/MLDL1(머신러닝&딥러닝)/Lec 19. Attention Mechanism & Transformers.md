@@ -51,16 +51,16 @@ Query, Key, Value($Q_i, K_i, V_i$) 각각은 모두 동일한 크기를 가질 �
 ![[Img/Img/SNU GSDS/1학년 1학기/MLDL1(머신러닝&딥러닝)/Lec 19. Attention Mechanism & Transformers/IMG-20250304110009.png]]
 ## Transformer: Step
 1. 첫번째 단어가 주인공이라고 해보자! 그러면 첫번째 단어에 대한 벡터가 ==Query==가 된다. 
-2. **모든 단어들로부터** ==Key==를 뽑아낸다. 그 후, 첫번째 Query와 Weighted Sum을 통해 ==각 단어에 대해 Query-Key Weight==을 계산한다!![[Img/Img/SNU GSDS/1학년 1학기/MLDL1(머신러닝&딥러닝)/Lec 19. Attention Mechanism & Transformers/IMG-20250304110009-1.png]]
+2. **모든 단어들로부터** ==Key==를 뽑아낸다. 그 후, 첫번째 Query와 Weighted Sum을 통해 ==각 단어에 대해 Query-Key Weight==을 계산한다!![Img/Img/SNU GSDS/1학년 1학기/MLDL1(머신러닝&딥러닝)/Lec 19. Attention Mechanism & Transformers/IMG-20250304110009-1.png](IMG-20250304110009-1.png)
 3. 모든 단어들로부터 ==Value==를 뽑아낸 뒤 전 단계에서 계산한 Query-Key Weight에 각각 곱해준다. 
-![[Img/Img/SNU GSDS/1학년 1학기/MLDL1(머신러닝&딥러닝)/Lec 19. Attention Mechanism & Transformers/IMG-20250304110017.png]]
+![Img/Img/SNU GSDS/1학년 1학기/MLDL1(머신러닝&딥러닝)/Lec 19. Attention Mechanism & Transformers/IMG-20250304110017.png](IMG-20250304110017%201.png)
 4. 마지막으로, 계산된 ==Value==값들을 더해준 뒤, 다시 input 차원을 맞춰주기 위해 $W_0$를 곱해주면 한 step이 마무리 된다. 
 5. 위 4 step을 모든 단어들에 대해 시행해주면된다. 
 > [!result] transform! to new vector
 > 최종 도출된 단어 벡터 $z_i$는 $x_1$과 차원은 같으면서 문맥 의미를 어느정도 담고 있는 벡터가 된다!!
 > → 문맥을 어느정도 포함하고 있는 단어 벡터를 만드는 contextualize하는 과정이다!
 
-![[Img/Img/SNU GSDS/1학년 1학기/MLDL1(머신러닝&딥러닝)/Lec 19. Attention Mechanism & Transformers/IMG-20250304110017-1.png]]
+![Img/Img/SNU GSDS/1학년 1학기/MLDL1(머신러닝&딥러닝)/Lec 19. Attention Mechanism & Transformers/IMG-20250304110017-1.png](IMG-20250304110017-1%201.png)
 → 위의 예시에서는 각각의 장면에 대한 벡터들이, 영화 전체에 대한 정보를 조금은 내포하게끔하여 약간은 내용이 섞인 벡터가 만들어진다. 
-![[Img/Img/SNU GSDS/1학년 1학기/CFDS1(컴퓨팅)/Lec 21. Red-Black Tree/IMG-20250304110017-2.png]]
+![Img/Img/SNU GSDS/1학년 1학기/CFDS1(컴퓨팅)/Lec 21. Red-Black Tree/IMG-20250304110017-2.png](Img/IMG-20250304110017-2.png)
 → 트랜스포머층을 더 쌓을수록 각 장면 벡터들이 점점 더 전체 영화 내용을 반영하게 된다. 

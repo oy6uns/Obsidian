@@ -61,11 +61,11 @@ $r_t$에 기존의 $h_{t-1}$를 곱한 @한 값과, input $x_t$에 대한 값을
 **그러면! 문장이 끝날때까지 기다렸다가, 그 때 번역을 시행하면 되겠다!!** 가 새로운 아이디어다. 
 ### Seq2Seq Model
 #### Encoder
-![[Img/Img/SNU GSDS/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 18. Recurrent Neural Networks II (LSTMs & Seq2seq Models)/IMG-20250313142327-2.png]]
+![Img/Img/SNU GSDS/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 18. Recurrent Neural Networks II (LSTMs & Seq2seq Models)/IMG-20250313142327-2.png](IMG-20250313142327-2.png)
 15개 단어로 이루어진 문장이라고 하면, 마지막 hidden state인 $h_{15}$가 **entire sequence를 encode**하고 있다고 하자. 
 $h_{15}$까지를 ==**encoder**==라고 부른다. 
 #### Decoder
-![[Img/Img/SNU GSDS/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 18. Recurrent Neural Networks II (LSTMs & Seq2seq Models)/IMG-20250313142327-3.png]]
+![Img/Img/SNU GSDS/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 18. Recurrent Neural Networks II (LSTMs & Seq2seq Models)/IMG-20250313142327-3.png](IMG-20250313142327-3.png)
 ==**Encoder**==의 last hidden state로 ==**Decoder**==의 시작 hidden state를 initialize시켜준다. 
 이후, <SOS, Start of Sentence> token을 첫번째 input으로 하여금 **Decoding을 진행한다.** **다음 hidden state**는 **context와 더불어 position 정보가 같이 encoding된 값**일 것이다. 
 

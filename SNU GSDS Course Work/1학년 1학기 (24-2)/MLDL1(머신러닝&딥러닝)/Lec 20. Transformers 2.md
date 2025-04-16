@@ -52,7 +52,7 @@ $W, Q, V$ 벡터를 하나씩 만드는게 아니라, 여러 쌍을 만들어두
 - Vanishing Gradient Problem을 완화시켜준다. 
 - 이를 통해 기울기가 더 잘 흐를 수 있게 해준다. 
 #### Step 4. Positional Encoding
-Transformer는 순차적인 구조가 아니기 때문에 **단어의 순서**를 모델이 인식할 수 없으므로, [[Positional Encoding]]을 사용하여 각 단어가 문장에서 차지하는 **위치 정보**를 임베딩에 추가한다. 
+Transformer는 순차적인 구조가 아니기 때문에 **단어의 순서**를 모델이 인식할 수 없으므로, [Positional Encoding](../../../Img/Positional%20Encoding.md)을 사용하여 각 단어가 문장에서 차지하는 **위치 정보**를 임베딩에 추가한다. 
 ![[Img/Img/SNU GSDS/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 20. Transformers 2/IMG-20250313142327-2.png]]
 Input Embedding에 Positional Encoding을 단순히 더해준다. 
 Input Token이 64차원이면 Positional Encoding Matrix도 64차원이 되어야 할 것이다. 
@@ -87,7 +87,7 @@ Multi-Head Attention을 보면,
 #### Step 6. Fc layer
 위의 Encoder-Decoder 구조를 반복해서 실행함으로써, <EOS, End of Sentence>가 나올때까지 단어를 하나씩 도출해내서 결과적으로 하나의 문장을 생성한다. 
 #### Step 7. Linear layer, Softmax layer
-Linear layer, Softmax layer를 거친 문장 [[실제 벡터와의 차이를 Cross-Entrophy loss를 통해 계산]]해준다. 
+Linear layer, Softmax layer를 거친 문장 [실제 벡터와의 차이를 Cross-Entrophy loss를 통해 계산](../../../Img/실제%20벡터와의%20차이를%20Cross-Entrophy%20loss를%20통해%20계산.md)해준다. 
 beam search: 단어 하나만 보고 top-k를 선택하는 것이 아니라, 단어들의 조합을 보고 더 많은 조합들 중에서 top-k를 선택해서 greedy함을 줄인다. 
 
 ## Encoder Based Models

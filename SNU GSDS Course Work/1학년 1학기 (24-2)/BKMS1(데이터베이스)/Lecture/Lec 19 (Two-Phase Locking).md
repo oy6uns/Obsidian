@@ -73,7 +73,7 @@ T1 | R | X
 
 **그러면, Table Drop과 같은 일을 할 때, Drop을 해야하는지에 대해 모든 page와 record에 대해 검사하는 일을 생략 할 수 있다!!**
 
-![[Intention Locks]]
+![Intention Locks](../../../../Excalidraw/Intention%20Locks.md)
 ==Intention Locks 3가지 종류 다시 공부해야함!!==
 
 ## Compatibility Matrix

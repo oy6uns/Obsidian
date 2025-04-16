@@ -12,7 +12,7 @@ Limit to domain of items we have
 ## Vague User-Intent
 > Sometimes there isn't a clear intent to satisfy
 
-![[IMG_8124.jpg]]
+![](IMG_8124.jpg)
 
 ## Systems Challenge
 - Latency / Throughput
@@ -23,7 +23,7 @@ Limit to domain of items we have
 ## Contamination
 > And if it all works, then what?
 
-![[IMG_8125.jpg]]
+![](IMG_8125.jpg)
 
 ## User Profile Generation
 - One strategy: **summarize user history into a natural language user profile**
@@ -31,7 +31,7 @@ Limit to domain of items we have
 	- Summarize entire user interaction history
 	- Retrieve relevant parts, based on the current state
 	- But still an open question
-![[IMG_8126.jpg]]
+![](IMG_8126.jpg)
 ## Response Generation
 - Being able to respond in LLM
 
@@ -40,10 +40,10 @@ Limit to domain of items we have
 ## Which one should we evaluate
 - Recall of held-out items-interactions
 - Quality of explanations (factual, relevant, ...)
-![[IMG_8130.jpg]]
-![[IMG_8132.jpg]]
-![[IMG_8133.jpg]]
-![[IMG_8135.jpg]]
+![](IMG_8130.jpg)
+![](IMG_8132.jpg)
+![](IMG_8133.jpg)
+![](IMG_8135.jpg)
 
 ## QnA
 1. Reddit open source dataset

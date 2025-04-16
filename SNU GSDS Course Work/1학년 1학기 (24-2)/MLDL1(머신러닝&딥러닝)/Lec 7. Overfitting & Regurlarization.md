@@ -68,7 +68,7 @@ Ridge는 천천히 곡선을 그리며 0으로 수렴한다.
 Lasso Regularization 같은 경우엔 β그래프가 정사각형 꼴로 그려지기 때문에, 
 위의 그림처럼 β1, β2가 있더라도, 둘 중에 β 하나만 사용하는 꼭짓점으로 수렴하게 된다. ![[Img/Img/SNU GSDS/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 7. Overfitting & Regurlarization/IMG-20250313142327-3.png]]
 차원이 높아지면 높아질수록 sparse한 모델로 수렴할 가능성이 더 높아진다. 
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 7. Overfitting & Regurlarization/IMG-20250416150918-2.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 7. Overfitting & Regurlarization/IMG-20250416150918-2.png](IMG-20250416150918-2%2014.png)
 - Lasso의 경우에는 β의 값이 급격하게 0으로 변경되기에, MSE(Mean Squared Error) 그래프도 급격하게 튀는 형태를 그린다. 그에 반해 Ridge의 경우에는 곡선을 그리면서 MSE 값이 변경된다. 
 - Lasso 그래프의 빨간색 부분에서 극단적인 경우에는 β_0 빼고 나머지 β값들이 다 0으로 수렴하게 된다. 
 
@@ -77,4 +77,4 @@ Lasso Regularization 같은 경우엔 β그래프가 정사각형 꼴로 그려�
 어떤 것이 객관적으로 더 좋다고는 할 수 없다. 
 
 ## Summary
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 7. Overfitting & Regurlarization/IMG-20250416150918-3.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 7. Overfitting & Regurlarization/IMG-20250416150918-3.png](IMG-20250416150918-3%208.png)

@@ -42,7 +42,7 @@
 한쪽 **테이블의 사이즈가 너무 작다면** **index를 사용하는 것이 효율적**일거 같은데?
 → 그래서 나온 것이 Index Nested Loop Join이다!
 #### #3. Index Nested Loop Join
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_14 Join Algorithm/IMG-20250416150918-2.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_14 Join Algorithm/IMG-20250416150918-2.png](IMG-20250416150918-2%201.png)
 - $C$ : S 테이블의 인덱스를 통해 탐색하는 비용
 - R 테이블에 있는 총 튜플 수는 m이기 때문에, **각 튜플마다 S 테이블의 인덱스를 탐색하는 비용**은 
   $m*C$가 된다!
@@ -57,13 +57,13 @@
 ## Sort-Merge Join
 1. both table을 key에 따라 sorting한다. 
    → External Merge-sort를 사용할 수 있다. 
-2. sorted된 key들에서 순서대로 하나씩 비교하며, 동일한 key를 가지면 Merge한다. ![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_14 Join Algorithm/IMG-20250416150918-3.png]]![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_14 Join Algorithm/IMG-20250416150919.png]]
-만약, 양쪽의 튜플들이 모두 동일한 값을 가지는 최악의 경우에 **Merge Cost가** $MN$이 된다. ![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_14 Join Algorithm/IMG-20250416150919-1.png]]
+2. sorted된 key들에서 순서대로 하나씩 비교하며, 동일한 key를 가지면 Merge한다. ![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_14 Join Algorithm/IMG-20250416150918-3.png](IMG-20250416150918-3%201.png)![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_14 Join Algorithm/IMG-20250416150919.png](IMG-20250416150919%201.png)
+만약, 양쪽의 튜플들이 모두 동일한 값을 가지는 최악의 경우에 **Merge Cost가** $MN$이 된다. ![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_14 Join Algorithm/IMG-20250416150919-1.png](Img/IMG-20250416150919-1.png)
 → 만약 한쪽, 또는 **양쪽 테이블**이 join key에 대해 **already sorted** 되있다면, sort cost가 없기 때문에 아주 효율적이다!
 
 ## Hash Join
 1. **Build**: outer relation의 원소들을 **hash function** $h_1$을 통과시켜 hash table을 build한다. 
-2. **Probe**: inner relation을 scan하면서, 동일한 **hash function** $h_1$을 통과시킨 값이 hash table에 있다면, 두 tuple을 matching 시킨다. ![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_14 Join Algorithm/IMG-20250416150919-2.png]]
+2. **Probe**: inner relation을 scan하면서, 동일한 **hash function** $h_1$을 통과시킨 값이 hash table에 있다면, 두 tuple을 matching 시킨다. ![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_14 Join Algorithm/IMG-20250416150919-2.png](Img/IMG-20250416150919-2.png)
 #### Hash Table의 Value
 - **#1. Full Tuple을 모두 저장**
 	외부 관계(outer relation)의 **전체 튜플을 해시 테이블에 저장.**
@@ -91,11 +91,11 @@ Hash function의 Entry가 $B$개 이고, 파티션 하나의 최대 크기가 $B
 ## Grace hash join (+Recursive partitioning)
 #### Grace Hash Join
 1. 양쪽 테이블에 동일한 hash function을 적용하고, 이를 partition으로 저장한다. 
-2. 각 테이블의 일치하는 partition간에 join을 수행한다. ![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_14 Join Algorithm/IMG-20250416150920.png]]
+2. 각 테이블의 일치하는 partition간에 join을 수행한다. ![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_14 Join Algorithm/IMG-20250416150920.png](Img/IMG-20250416150920.png)
 해시 테이블이 너무 커서 메모리에 올라가지 않는 경우, table을 작은 partition으로 나누기에 이를 방지할 수 있디. 
 
 **Recursive Partitioning**: 만약, **partition도 memory에 fit하지 않는 경우** 재귀적으로 ==새로운 hash함수를 사용==하여 partition을 더 작게 나누는 방법으로 해결할 수도 있다. 
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_14 Join Algorithm/IMG-20250416150920-1.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_14 Join Algorithm/IMG-20250416150920-1.png](Img/IMG-20250416150920-1.png)
 만약 Recursive Paritioning이 필요하지 않은 경우, Cost는 **3(M+N)**이 된다. 
 - Partition phase에서 **양쪽 테이블을 read, write**하는데 **2(M+N) I/O**가 요구되고, 
 - Probe phase에서 **양쪽 테이블의 모든 partition**에 대해 read작업이 발생하기 때문에, **M+N** I/O가 요구되기 때문이다.

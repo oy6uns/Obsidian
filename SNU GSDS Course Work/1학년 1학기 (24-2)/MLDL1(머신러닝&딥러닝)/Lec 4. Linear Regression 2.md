@@ -45,7 +45,7 @@ variable을 ![[Img/Img/SNU GSDS/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러
 
 ### Stepwise Selection
 하나 고르고, 2개 고르고,,,,모든 경우의 수가 등차수열의 합으로 표현된다. 
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 4. Linear Regression 2/IMG-20250416150918-1.png]]![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 4. Linear Regression 2/IMG-20250416150918-2.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 4. Linear Regression 2/IMG-20250416150918-1.png](IMG-20250416150918-1%201.png)![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 4. Linear Regression 2/IMG-20250416150918-2.png](IMG-20250416150918-2%2013.png)
 실제 Best Subset은 `cards, income, student, limit` 의 4개 variable이지만, Forward stepwise는 `기존의 변수를 빼지 못하기 때문에` 다른 subset이 나오게 된다. 
 
 `반대로 하나씩 없애가는 방법도 있다!` → (Backward) Stepwise Selection

@@ -29,7 +29,7 @@ $⌊n/2⌋$ 값보다 작은 index의 값들에 대해 `max_heapify`를 시행�
 1. `max_heapify` 수행; $O(lgn)$의 시간복잡도
 ![[Img/Img/SNU GSDS/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/Lec 19. Priority Queue/IMG-20250313142327-3.png]]
 2. $index=0$ node와 $index = n - 1$ node를 교환한다. 
-   이후, $index = n - 1$ node의 값을 지우고, 새로운 배열의 마지막 원소로 대입해준다. ![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/Lec 19. Priority Queue/IMG-20250416150918-2.png]]
+   이후, $index = n - 1$ node의 값을 지우고, 새로운 배열의 마지막 원소로 대입해준다. ![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/Lec 19. Priority Queue/IMG-20250416150918-2.png](IMG-20250416150918-2%209.png)
 3. 이후,  $index=0$ node의 원소에 대해 `max_heapify(A, 0)`를 수행한다. 
 4. 1~3까지의 과정을 반복시행해준다. 
 	→ max heap을 만드는데, $O(n)$ 

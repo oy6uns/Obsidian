@@ -1,4 +1,4 @@
-[[WAL]]
+[WAL](../WAL.md)
 - - - 
 ## Key word
 - WAL principle(중요)

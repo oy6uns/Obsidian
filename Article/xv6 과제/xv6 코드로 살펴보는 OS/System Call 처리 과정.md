@@ -22,7 +22,7 @@
 
 ## Assembly trap handler
 ##### 1. 사용자 모드(User Mode)
-1. **`int n` 명령어**는 소프트웨어 인터럽트를 발생시켜 트랩 핸들러인 `alltraps`를 호출한다. CPU는 ==IDT (Interrupt Descriptor Table)를 참조하여 사용자 모드에서 커널 모드로 전환==한다.  ![[IMG-20250123124959.png]]
+1. **`int n` 명령어**는 소프트웨어 인터럽트를 발생시켜 트랩 핸들러인 `alltraps`를 호출한다. CPU는 ==IDT (Interrupt Descriptor Table)를 참조하여 사용자 모드에서 커널 모드로 전환==한다.  ![IMG-20250123124959.png](IMG-20250123124959.png)
 ##### 2. 커널 모드(Kernel Mode)
 2. CPU가 `alltraps`로 진입하고, 현재 CPU상태를 저장하고, 커널 환경을 설정한다. 
 3. `alltraps`는 스택에 저장된 현재 상태의 주소를 `trap`함수에 전달한다. 

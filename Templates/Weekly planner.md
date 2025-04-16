@@ -1,11 +1,11 @@
-#### This Week:
-<% tp.date.now("YYYY-MM-DD") %> ~ <% tp.date.now("YYYY-MM-DD", +6) %>
-
+### 🙆🏻‍♂️ This Week:
+🌸 {{date:YYYY-MM-DD}} ~ {{date+6d:YYYY-MM-DD}}
+ 
 ## 🌟 이주의 목표
 1. 
 
 ## 🗓️ Daily Planner
-### <% tp.date.now("YYYY-MM-DD") %> (Monday)
+### {{date:YYYY-MM-DD}} (Monday)
 - **할 일**
   - [ ] 
   - [ ] 
@@ -13,7 +13,7 @@
 - **메모**
   - 
 
-### <% tp.date.now("YYYY-MM-DD", +1) %> (Tuesday)
+### {{date+1d:YYYY-MM-DD}} (Tuesday)
 - **할 일**
   - [ ] 
   - [ ] 
@@ -21,7 +21,7 @@
 - **메모**
   - 
 
-### <% tp.date.now("YYYY-MM-DD", +2) %> (Wednesday)
+### {{date+2d:YYYY-MM-DD}} %> (Wednesday)
 - **할 일**
   - [ ] 
   - [ ] 
@@ -29,7 +29,7 @@
 - **메모**
   - 
 
-### <% tp.date.now("YYYY-MM-DD", +3) %> (Thursday)
+### {{date+3d:YYYY-MM-DD}} (Thursday)
 - **할 일**
   - [ ] 
   - [ ] 
@@ -37,7 +37,7 @@
 - **메모**
   - 
 
-### <% tp.date.now("YYYY-MM-DD", +4) %> (Friday)
+### {{date+4d:YYYY-MM-DD}} (Friday)
 - **할 일**
   - [ ] 
   - [ ] 
@@ -45,7 +45,7 @@
 - **메모**
   - 
 
-### <% tp.date.now("YYYY-MM-DD", +5) %> (Saturday)
+### {{date+5d:YYYY-MM-DD}} (Saturday)
 - **할 일**
   - [ ] 
   - [ ] 
@@ -53,7 +53,7 @@
 - **메모**
   - 
 
-### <% tp.date.now("YYYY-MM-DD", +6) %> (Sunday)
+### {{date+6d:YYYY-MM-DD}} (Sunday)
 - **할 일**
   - [ ] 
   - [ ] 

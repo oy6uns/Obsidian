@@ -16,7 +16,7 @@
   "folder_templates": [
     {
       "folder": "Templates",
-      "template": "Templates/Weekly Planner.md"
+      "template": "Templates/Weekly planner.md"
     }
   ],
   "enable_file_templates": false,

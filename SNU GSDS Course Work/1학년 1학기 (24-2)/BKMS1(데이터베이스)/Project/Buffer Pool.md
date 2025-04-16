@@ -1,4 +1,4 @@
-[[db.h]]
+[db.h](db.h.md)
 
 ## 구현해야할 함수
 • Components (in db/include/buffer.h):

@@ -239,11 +239,11 @@ operation을 쪼개서 여러 thread가 동작하게끔 할 수 있다. → **In
   2. **Distribute**: single output input stream을 multiple output으로 split
   3. **Repartition**: input stream의 부하에 따라 재분배 시행
 ##### 전체 과정은 아래와 같다. 
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_15 Query Processing/IMG-20250416150918-2.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_15 Query Processing/IMG-20250416150918-2.png](IMG-20250416150918-2%202.png)
 1. A table의 각 partition으로부터 `A.value < 99`인 값들을 뽑아서 **hashtable을 build한다**. 
 2. B table의 각 partition으로부터 `B.value > 100`인 값들을 뽑아서 A에서 build한 **hashtable에 hit하는 데이터들을 가지고 join을 실행**한다. 
 ### #2. Inter-Operator Parallelism
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_15 Query Processing/IMG-20250416150918-3.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_15 Query Processing/IMG-20250416150918-3.png](IMG-20250416150918-3%202.png)
 - join operation에서 시행된 결과값을 주기적으로 위로 emit 해준다. 
 - select operation에서 시행된 결과값도 주기적으로 위로 emit 시켜준다. 
 → **다음으로 넘겨도 되는 결과 값들을 계속 넘겨준다!!**
@@ -254,8 +254,8 @@ operation을 쪼개서 여러 thread가 동작하게끔 할 수 있다. → **In
 - **RAID 1**(Mirroring): 페이지를 복제하여 디스크에 나누어 저장 → 데이터의 안정성 보장(복구 가능)
   Redundancy를 높여서 안정성을 높임
   **여러 디스크에서 병렬로 Read를 처리할 때 ==Load Balancing==이 쉽다!!** (Write ❌)
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_15 Query Processing/IMG-20250416150919.png]]
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_15 Query Processing/IMG-20250416150919-1.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_15 Query Processing/IMG-20250416150919.png](IMG-20250416150919%202.png)
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_15 Query Processing/IMG-20250416150919-1.png](IMG-20250416150919-1%201.png)
 #### Disk 내의 Partitioning
 예전의 **NSM(n-ary Storage Model), DSM(Decomposed Storage Model)**
 에서 배웠듯이,==디스크 내의 Tuple들을 가로로 저장할지 세로로 저장할지==도 query execution 속도를 높이는데 중요하다!!

@@ -5,7 +5,7 @@
   "strictLineBreaks": false,
   "spellcheck": false,
   "trashOption": "local",
-  "attachmentFolderPath": "Img",
+  "attachmentFolderPath": "IMG",
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "Letter",
@@ -14,5 +14,6 @@
     "downscalePercent": 80
   },
   "livePreview": true,
-  "defaultViewMode": "source"
+  "defaultViewMode": "source",
+  "useMarkdownLinks": false
 }

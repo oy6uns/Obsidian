@@ -122,4 +122,4 @@ int main(int argc, char **argv) {
 C에서는 배열 선언시에 `score[student]` 와 같이 배열 크기에 변수를 집어넣을 수 없다. 
 따라서 malloc을 사용해서 이 문제를 해결하는 것이 가능해진다. 
 # typedef
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/사전 공부(C, C++)/C/IMG-20250416150918-2.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/사전 공부(C, C++)/C/IMG-20250416150918-2.png](IMG-20250416150918-2%208.png)

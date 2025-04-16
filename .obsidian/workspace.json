@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b59bbbefe7e837fe",
+        "id": "94e90c807c1a99c6",
         "type": "tabs",
         "children": [
           {
-            "id": "2bb9f7be8bb7cf0e",
+            "id": "b8fbbfb39e8b7e19",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".gitignore",
-                "bFile": ".gitignore",
-                "aRef": ""
+                "file": "SNU ViBA Lab/Graph Neural Network 주요 목차 및 개념.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: .gitignore"
+              "icon": "lucide-file",
+              "title": "Graph Neural Network 주요 목차 및 개념"
             }
           }
         ],
@@ -76,7 +76,20 @@
             }
           },
           {
-            "id": "3cdb2c61284500bb",
+            "id": "4c33e7eeaf450c65",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "cc0e438e985cfc88",
             "type": "leaf",
             "state": {
               "type": "mk-file-view",
@@ -105,7 +118,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Article/xv6 과제/02 Light-weight Process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "02 Light-weight Process의 백링크"
+              "title": "Backlinks"
             }
           },
           {
@@ -124,12 +136,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Weekly Notes/Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Template의 나가는 링크"
+              "title": "Outgoing links"
             }
           },
           {
@@ -139,7 +150,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -151,10 +164,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Article/xv6 과제/02 Light-weight Process.md"
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "02 Light-weight Process 개요"
+              "title": "Outline"
             }
           },
           {
@@ -182,7 +197,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 312.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,14 +207,17 @@
       "command-palette:Open command palette": false,
       "random-note:Open random note": false,
       "templater-obsidian:Templater": false,
-      "remotely-save:Remotely Save": false,
+      "obsidian-git:Open Git source control": false,
       "periodic-notes:Open this week": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "47264958c59fc6de",
+  "active": "0c092cc703a246da",
   "lastOpenFiles": [
+    "Assets",
+    "Weekly Notes/2025-W16.md",
+    "Weekly Notes/Untitled.md",
+    "Weekly Notes/2025-W17.md",
     "Excalidraw/Drawing 2025-04-16 15.18.36.excalidraw.md",
     "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 2",
     "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계",
@@ -222,8 +240,8 @@
     "Article/xv6 과제/01 MLFQ and Stride Scheduling.md",
     "Article/xv6 과제/02 Light-weight Process.md",
     "SNU VLDB Lab/논문 세미나/1.31.md",
-    "Img/Img/SNU VLDB Lab/논문 세미나/1.31/IMG-20250131190150.png",
-    "Img/Img/SNU VLDB Lab/논문 세미나/1.31/IMG-20250131184610.png",
+    "Img/IMG-20250131190150.png",
+    "Img/IMG-20250131184610.png",
     "Img/Img/SNU VLDB Lab/논문 세미나/1.31/IMG-20250131170925.png",
     "SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Lec 18, 19 (Transaction).md",
     "SNU VLDB Lab/논문 세미나/11.16.md",
@@ -234,18 +252,14 @@
     "SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 2.md",
     "SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 1.md",
     "SNU VLDB Lab/논문 세미나/연사 초청/25.01.23. Vector Search.md",
-    "Img/Img/Article/xv6 과제/xv6 코드로 살펴보는 OS/System Call 처리 과정/IMG-20250123124959.png",
+    "Img/IMG-20250123124959.png",
     "컴퓨터 네트워킹/SNMP NetConf.md",
-    "컴퓨터 네트워킹/CH1. Introduction.md",
-    "SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 3.md",
     "Img/Img/SNU GSDS/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 3/IMG-20250313142326.png",
     "Img/Img/SNU GSDS/1학년 1학기/부트캠프/확률과 통계/Day 3/IMG-20250304110004-1.png",
     "Img/Img/SNU GSDS/1학년 1학기/부트캠프/확률과 통계/Day 3/IMG-20250304110004.png",
-    "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 2/IMG-20250416150919.png",
-    "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 2/IMG-20250416150918-3.png",
+    "Img/IMG-20250416150919.png",
+    "Img/IMG-20250416150918-3.png",
     "Img/Img/SNU GSDS/1학년 1학기/부트캠프/확률과 통계/Day 2/IMG-20250304110017-1.png",
-    "SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/Ch2, 3 Review of CFDS.md",
-    "SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/Ch7 Pointers and References.md",
     "무제 파일.canvas",
     "Lab Intern/Stuff/Untitled.canvas",
     "무제 파일 1.canvas",

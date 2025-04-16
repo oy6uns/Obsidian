@@ -1,1 +1,0 @@
-![[Img/Img/Img/실제 벡터와의 차이를 Cross-Entrophy loss를 통해 계산/IMG-20250313142314.png]]![[Img/Img/Img/실제 벡터와의 차이를 Cross-Entrophy loss를 통해 계산/IMG-20250313142314-1.png]]![[Img/Img/Img/실제 벡터와의 차이를 Cross-Entrophy loss를 통해 계산/IMG-20250313142315.png]]

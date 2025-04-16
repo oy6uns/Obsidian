@@ -50,13 +50,13 @@ Maximum Likelihood Estimator를 사용해보니깐, 식이 Least Square로 자�
 ![[Img/Img/SNU GSDS/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 3. Linear Regression 1/IMG-20250313142328.png]]
 `Gauss-Markov Theorem`
 ### 앞으로의 Notation 축약
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 3. Linear Regression 1/IMG-20250416150918-1.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 3. Linear Regression 1/IMG-20250416150918-1.png](Img/IMG-20250416150918-1.png)
 모든 coeffiecient를 하나의 matrix로 묶어서 표현하겠다!
 # Bias-Variance Decomposition
 ## Evaluating an Estimator
 어떤게 좋은 Estimator일까?
 unbiased & low-variance estimator이다.
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 3. Linear Regression 1/IMG-20250416150918-2.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 3. Linear Regression 1/IMG-20250416150918-2.png](IMG-20250416150918-2%2012.png)
 Bias는 어떤 x에 대한 기댓값과 모델로 예측한 값의 차이를 얘기하고, 
 Variance는 학습된 모델이 새로운 데이터에 대해서 민감하게 반응하냐는 것이다. 
 ## Linear Regression

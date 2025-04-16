@@ -14,4 +14,5 @@
 # Linear Classifier
 > Weighted Sum of input pixels
 
-df
+
+

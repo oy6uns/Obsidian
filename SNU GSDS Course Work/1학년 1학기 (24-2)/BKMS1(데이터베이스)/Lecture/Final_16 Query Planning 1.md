@@ -53,35 +53,35 @@
 #### #2. Natural Join
 두 테이블을 **공통 속성(attribute)을 기준**으로 **join**하는 연산이다. 
 공통 속성(attribute)가 같은 경우에만 적용되며, **중복된 속성은 결과에서 하나만 유지**한다. ![[Img/Img/SNU GSDS/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_16 Query Planning 1/IMG-20250313142328.png]]
-#### Join Example![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_16 Query Planning 1/IMG-20250416150918-2.png]]
+#### Join Example![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_16 Query Planning 1/IMG-20250416150918-2.png](IMG-20250416150918-2%203.png)
 ## 16.4 Pushdown
 불필요한 데이터를 빠른 시점에 처리해버리자!!
 #### #1. Predicate Pushdown
 Logical Plan이 들어오면, **보지 않아도 되는 데이터를 최대한 빠른 시점에 pruning하자**. 
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_16 Query Planning 1/IMG-20250416150918-3.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_16 Query Planning 1/IMG-20250416150918-3.png](IMG-20250416150918-3%203.png)
 - grade=’A’라는 predicate을 아래로 보내면 filtering을 더 early하게 수행하여 적은 데이터만 위로 올릴 수 있다. 
 - **==Reduction Factor==**: 전체 데이터 중에 어느정도의 데이터를 털어내는지에 대한 정보
   → 이를 plan 순서를 정하는데에 사용한다. 
 #### #2. Projection Pushdown
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_16 Query Planning 1/IMG-20250416150919.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_16 Query Planning 1/IMG-20250416150919.png](IMG-20250416150919%203.png)
 1. Projection 연산은 s.name, e.cid 2개의 column 만을 요구한다. 
 2. Student, Enrolled Table 전체에 대해 Selection, Projection을 수행하는 것은 비효율적이다. 
 3. 따라서, **Projection 연산을 Selection 이전에 수행**하여 **최소한의 필요한 값 만을 위로 넘겨준다.**
 #### #3. else
 - <b><u>Split Conjunctive Predicates</u></b>
-  Horitontal 하게 존재하는 연산을 Tree(Vertical) 형태로 바꾸어 순차적으로 처리할 수 있게 한다 ![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_16 Query Planning 1/IMG-20250416150919-1.png]]
+  Horitontal 하게 존재하는 연산을 Tree(Vertical) 형태로 바꾸어 순차적으로 처리할 수 있게 한다 ![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_16 Query Planning 1/IMG-20250416150919-1.png](IMG-20250416150919-1%202.png)
 - <b><u>Replace Cartesian Products with Joins</u></b>
-  Cartesian은 너무 연산량이 많기 때문에 Join으로 바꿔줘야 한다! ![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_16 Query Planning 1/IMG-20250416150919-2.png]]
+  Cartesian은 너무 연산량이 많기 때문에 Join으로 바꿔줘야 한다! ![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_16 Query Planning 1/IMG-20250416150919-2.png](IMG-20250416150919-2%201.png)
   → 여기서 좀더 optimize를 해주게 되면
 ## 16.5 Local Query Optimization
 #### #1. Split Conjunctive Predicates
- Horitontal 하게 존재하는 연산을 Tree(Vertical) 형태로 바꾸어 순차적으로 처리할 수 있게 한다 ![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_16 Query Planning 1/IMG-20250416150919-1.png]]
+ Horitontal 하게 존재하는 연산을 Tree(Vertical) 형태로 바꾸어 순차적으로 처리할 수 있게 한다 ![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_16 Query Planning 1/IMG-20250416150919-1.png](IMG-20250416150919-1%202.png)
 #### #2. Replace Cartesian Products with Joins
-  Cartesian은 너무 연산량이 많기 때문에 Join으로 바꿔줘야 한다! ![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_16 Query Planning 1/IMG-20250416150919-2.png]]
-   → 여기서 **좀더 optimize**를 해주게 되면 **아래와 같은 최종 Tree**가 나온다!! ![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_16 Query Planning 1/IMG-20250416150919-3.png]]
+  Cartesian은 너무 연산량이 많기 때문에 Join으로 바꿔줘야 한다! ![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_16 Query Planning 1/IMG-20250416150919-2.png](IMG-20250416150919-2%201.png)
+   → 여기서 **좀더 optimize**를 해주게 되면 **아래와 같은 최종 Tree**가 나온다!! ![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_16 Query Planning 1/IMG-20250416150919-3.png](Img/IMG-20250416150919-3.png)
 #### #3. Nested sub-Queries: Decompose
 **변경 전**
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_16 Query Planning 1/IMG-20250416150920.png]]**변경 후** ![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_16 Query Planning 1/IMG-20250416150920-1.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_16 Query Planning 1/IMG-20250416150920.png](IMG-20250416150920%201.png)**변경 후** ![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_16 Query Planning 1/IMG-20250416150920-1.png](IMG-20250416150920-1%201.png)
 nested query를 도려내서 위에서 한번만 실행되고 **==이를 Reference 하게끔 변경==**한다. 
 → SQL Rewrite 단계에서 처리한다.**
 ## 16.6 요약

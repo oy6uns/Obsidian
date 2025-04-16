@@ -24,25 +24,25 @@ self-balancing BST, 모든 height = $O(lgn)$
 
 #### Deletion
 ##### Deletion의 핵심은 Black node가 지워질 때, Black node의 개수가 path마다 동일하다는 조건을 어떻게 다시 만족시켜줄 것인지이다. 
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/Lec 21. Red-Black Tree/IMG-20250416150918-2.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/Lec 21. Red-Black Tree/IMG-20250416150918-2.png](IMG-20250416150918-2%2010.png)
 - ==Delete하려고 하는 Node가 black==일 때 위 그림처럼 문제 발생
 ### Case 1. 
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/Lec 21. Red-Black Tree/IMG-20250416150918-3.png]]
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/Lec 21. Red-Black Tree/IMG-20250416150919.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/Lec 21. Red-Black Tree/IMG-20250416150918-3.png](IMG-20250416150918-3%207.png)
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/Lec 21. Red-Black Tree/IMG-20250416150919.png](IMG-20250416150919%206.png)
 ==w와 both 자식들이 black==이라면, w를 red로 변경해준다. 
 x의 parent가 red라면, parent를 black으로 조정해준다. 
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/Lec 21. Red-Black Tree/IMG-20250416150919-1.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/Lec 21. Red-Black Tree/IMG-20250416150919-1.png](IMG-20250416150919-1%205.png)
 아래 형제들간의 균형은 다 맞춰졌는데, 이제 부모들 간의 불균형이 생긴다. 
 따라서, x와 w를 부모들로 옮기고 다시 Case 1 rebalancing을 진행해준다. 
 
 ### Case 2. 
 ==w는 black이고, w의 right child가 red==일 때, 
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/Lec 21. Red-Black Tree/IMG-20250416150919-2.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/Lec 21. Red-Black Tree/IMG-20250416150919-2.png](IMG-20250416150919-2%204.png)
 형을 할머니로 하고, 엄마를 형의 아들로 해준다. 
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/Lec 21. Red-Black Tree/IMG-20250416150919-3.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/Lec 21. Red-Black Tree/IMG-20250416150919-3.png](IMG-20250416150919-3%201.png)
 ### Case 3. 
 ==w는 black이고, w의 left child가 red==일때, 
 ![[IMG-20241208163659.png]]
 ### Case 4 
 ==w가 빨간색==일 때, 
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/Lec 21. Red-Black Tree/IMG-20250416150920.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/Lec 21. Red-Black Tree/IMG-20250416150920.png](IMG-20250416150920%204.png)

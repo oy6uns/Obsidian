@@ -53,12 +53,12 @@ Estimation을 하기 위해서는 분포를 알아야 하고,
 ![[Img/Img/SNU GSDS/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_16 Query Planning 2/IMG-20250313142328.png]]
 ##### #2. EQUI-DEPTH Histogram
 : **각 bucket에 동일한 수의 value**가 들어가게끔 잘라줘!!
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_16 Query Planning 2/IMG-20250416150918-2.png]]
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_16 Query Planning 2/IMG-20250416150918-3.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_16 Query Planning 2/IMG-20250416150918-2.png](IMG-20250416150918-2%204.png)
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_16 Query Planning 2/IMG-20250416150918-3.png](IMG-20250416150918-3%204.png)
 ##### #3. SAMPLING
 : 튜플의 수가 너무 많아지면서, histogram으로 변환하는 overhead가 너무 커졌다. 
 → 그때그때마다 **필요한 데이터만 Sampling**해서 쓰자!
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_16 Query Planning 2/IMG-20250416150919.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_16 Query Planning 2/IMG-20250416150919.png](IMG-20250416150919%204.png)
 ## 16.4 Query Optimization
 #### Single-Relation Query Planning
 single relation의 경우, ==**access method를 잘 뽑는 것**==이 지대한 영향을 미친다. 
@@ -67,16 +67,16 @@ ex) 약 70%의 데이터가 필요한 query라면 **index scan보다 sequential 
 #### Multi-Relation Query Planning
 - 탐색해야하는 범위가 exponentially 하게 넓어진다!
 - ==**Left-deep join tree를 설계하는 것이 가장 효율적이더라**==
-  → 비교할 때, 하나에 대해 여러개를 고려할 경우가 안생기기 때문에! ![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_16 Query Planning 2/IMG-20250416150919-1.png]]
+  → 비교할 때, 하나에 대해 여러개를 고려할 경우가 안생기기 때문에! ![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_16 Query Planning 2/IMG-20250416150919-1.png](IMG-20250416150919-1%203.png)
 ##### 고려할 수 있는 방법들
 - **Join의 순서를 바꾸기**
-- 각 operator에 대해 **어떤 Join을 사용**할 것인지![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_16 Query Planning 2/IMG-20250416150919-2.png]]
-  → Hash, Sort-Merge, Nested Loop, …![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_16 Query Planning 2/IMG-20250416150920.png]]
+- 각 operator에 대해 **어떤 Join을 사용**할 것인지![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_16 Query Planning 2/IMG-20250416150919-2.png](IMG-20250416150919-2%202.png)
+  → Hash, Sort-Merge, Nested Loop, …![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_16 Query Planning 2/IMG-20250416150920.png](IMG-20250416150920%202.png)
 - 각 operator이 **table에 어떤 access를 통해 접근**할 것인지
 → ==“Dynamic Programming”==을 통해 number of cost estimation을 줄여보자! 
-아래 그림은 전체 진행 과정의 도식도이다. ![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_16 Query Planning 2/IMG-20250416150920-1.png]]
+아래 그림은 전체 진행 과정의 도식도이다. ![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_16 Query Planning 2/IMG-20250416150920-1.png](IMG-20250416150920-1%202.png)
 #### Postgres의 Genetic Optimizer
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_16 Query Planning 2/IMG-20250416150920-2.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_16 Query Planning 2/IMG-20250416150920-2.png](Img/IMG-20250416150920-2.png)
 1. 유전 알고리즘과 비슷하게 가장 안 좋은 Cost를 하나씩 떨구고
 2. 나머지 경우의 수에 대해서도 약간의 변형을 가해주며
 	→ 최적의 Cost를 갖는 Query Plan을 만든다!!

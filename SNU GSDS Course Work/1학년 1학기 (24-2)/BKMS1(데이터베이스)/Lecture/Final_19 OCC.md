@@ -54,4 +54,4 @@ DB의 index를 Lock으로 보호하여, **조건에 부합하는 데이터뿐만
 2. Next-Key Lock
    레코드와 해당 레코드의 다음 간격을 함께 잠금
    → 현재 조건에 부합하는 레코드 뿐만 아니라, 조건에 부합하는 새 레코드가 추가되지 않도록 보호
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_19 OCC/IMG-20250416150918-2.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final\_19 OCC/IMG-20250416150918-2.png](IMG-20250416150918-2%205.png)

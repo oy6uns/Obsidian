@@ -21,9 +21,9 @@
 ### Properties of Condition Probability
 ![[Img/Img/SNU GSDS/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 2/IMG-20250313142327-2.png]]
 ![[Img/Img/SNU GSDS/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 2/IMG-20250313142328.png]]
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 2/IMG-20250416150918-2.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 2/IMG-20250416150918-2.png](Img/IMG-20250416150918-2.png)
 ![[IMG-20250122152202.png]]
 ## Example: Cointoss
-![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 2/IMG-20250416150918-3.png]] ![[Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 2/IMG-20250416150919.png]]
+![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 2/IMG-20250416150918-3.png](Img/IMG-20250416150918-3.png) ![Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 2/IMG-20250416150919.png](Img/IMG-20250416150919.png)
 → B의 표본 공간중 동전이 교대로 앞면과 뒷면이 나오는 건 하나이기에 확률은 $1/4$가 된다. 
 
