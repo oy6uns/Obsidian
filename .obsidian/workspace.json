@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3688827934b94b50",
+        "id": "b59bbbefe7e837fe",
         "type": "tabs",
         "children": [
           {
-            "id": "d8bea9564968a4ed",
+            "id": "2bb9f7be8bb7cf0e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "SNU ViBA Lab/논문 아이디어.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".gitignore",
+                "bFile": ".gitignore",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "논문 아이디어"
+              "icon": "diff",
+              "title": "Diff: .gitignore"
             }
           }
         ],
@@ -198,8 +198,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c092cc703a246da",
+  "active": "47264958c59fc6de",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-04-16 15.18.36.excalidraw.md",
     "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 2",
     "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계",
     "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프",
@@ -210,7 +211,6 @@
     "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Lec 3 (9.9)",
     "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Lec 12 (10.14)",
     "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_20 MVCC",
-    "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Final_19 OCC",
     "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lecture 2.md",
     "SNU GSDS Course Work/1학년 2학기 (25-1)/AI를 위한 윤리적 함의/무제.md",
     "Img/df.md",
