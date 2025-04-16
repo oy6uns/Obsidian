@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "94e90c807c1a99c6",
+        "id": "5bc4143aa4ef1d3c",
         "type": "tabs",
         "children": [
           {
-            "id": "b8fbbfb39e8b7e19",
+            "id": "dac8aa95456e8e22",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SNU ViBA Lab/Graph Neural Network 주요 목차 및 개념.md",
+                "file": "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lecture 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Graph Neural Network 주요 목차 및 개념"
-            }
-          },
-          {
-            "id": "61db43e90c134edc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Lecture 2"
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -102,18 +87,9 @@
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
-          },
-          {
-            "id": "cc0e438e985cfc88",
-            "type": "leaf",
-            "state": {
-              "type": "mk-file-view",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "Spaces"
-            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -179,16 +155,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lecture 2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Lecture 2"
             }
           },
           {
-            "id": "a0481cad443525ce",
+            "id": "b2043fd7567f7d90",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -198,7 +175,7 @@
             }
           },
           {
-            "id": "47264958c59fc6de",
+            "id": "5e92712b924df7e9",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -212,7 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5
+    "width": 258.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,8 +204,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "61db43e90c134edc",
+  "active": "dac8aa95456e8e22",
   "lastOpenFiles": [
+    "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lecture 1. Course Introduction.md",
+    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lecture 2/IMG-20250416163846.png",
+    "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lecture 2.md",
+    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lecture 2",
+    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)",
+    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)",
+    "Assets/SNU GSDS Course Work",
+    "IMG/Img/SNU ViBA Lab/논문 아이디어/IMG-20250416163714.png",
+    "IMG/Untitled.md",
+    "SNU ViBA Lab/논문 아이디어.md",
+    "IMG/Img/SNU ViBA Lab/논문 아이디어",
+    "IMG/Img/SNU ViBA Lab",
+    "IMG/Img",
+    "IMG/스크린샷 2025-04-16 오후 4.36.27.png",
+    "IMG/스크린샷 2025-04-16 오후 4.36.20.png",
+    "IMG/스크린샷 2025-04-16 오후 4.34.27.png",
+    "IMG",
     "conflict-files-obsidian-git.md",
     "Assets",
     "Weekly Notes/2025-W16.md",
@@ -236,20 +230,9 @@
     "Weekly Notes/2025-W17.md",
     "Excalidraw/Drawing 2025-04-16 15.18.36.excalidraw.md",
     "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 2",
-    "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계",
-    "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프",
-    "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/사전 공부(C, C++)/C",
-    "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/CFDS1(컴퓨팅)/사전 공부(C, C++)",
-    "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lab/Lab 3",
-    "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lab",
-    "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Lec 3 (9.9)",
-    "Img/Img/SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/Lecture/Lec 12 (10.14)",
-    "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lecture 2.md",
     "SNU GSDS Course Work/1학년 2학기 (25-1)/AI를 위한 윤리적 함의/무제.md",
     "Img/df.md",
-    "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lecture 1. Course Introduction.md",
     "SNU ViBA Lab/Graph Neural Network 주요 목차 및 개념.md",
-    "SNU ViBA Lab/논문 아이디어.md",
     "Article/xv6 과제/03 File system.md",
     "Article/xv6 과제/xv6 코드로 살펴보는 OS/System Call 처리 과정.md",
     "Article/xv6 과제/01 MLFQ and Stride Scheduling.md",
@@ -266,15 +249,8 @@
     "SNU GSDS Course Work/1학년 1학기 (24-2)/BKMS1(데이터베이스)/WAL.md",
     "SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 2.md",
     "SNU GSDS Course Work/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 1.md",
-    "SNU VLDB Lab/논문 세미나/연사 초청/25.01.23. Vector Search.md",
     "Img/IMG-20250123124959.png",
-    "컴퓨터 네트워킹/SNMP NetConf.md",
     "Img/Img/SNU GSDS/1학년 1학기 (24-2)/부트캠프/확률과 통계/Day 3/IMG-20250313142326.png",
-    "Img/Img/SNU GSDS/1학년 1학기/부트캠프/확률과 통계/Day 3/IMG-20250304110004-1.png",
-    "Img/Img/SNU GSDS/1학년 1학기/부트캠프/확률과 통계/Day 3/IMG-20250304110004.png",
-    "Img/IMG-20250416150919.png",
-    "Img/IMG-20250416150918-3.png",
-    "Img/Img/SNU GSDS/1학년 1학기/부트캠프/확률과 통계/Day 2/IMG-20250304110017-1.png",
     "무제 파일.canvas",
     "Lab Intern/Stuff/Untitled.canvas",
     "무제 파일 1.canvas",

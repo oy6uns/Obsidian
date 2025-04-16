@@ -1,17 +1,16 @@
 [
-  "cmenu-plugin",
-  "obsidian-style-settings",
-  "make-md",
   "obsidian-tasks-plugin",
-  "code-styler",
-  "obsidian-smart-typography",
-  "calendar",
   "periodic-notes",
+  "mousewheel-image-zoom",
+  "obsidian-git",
+  "obsidian-minimal-settings",
+  "obsidian-smart-typography",
   "templater-obsidian",
   "obsidian-excalidraw-plugin",
   "colored-text",
-  "obsidian-minimal-settings",
-  "obsidian-git",
-  "mousewheel-image-zoom",
-  "attachment-management"
+  "attachment-management",
+  "calendar",
+  "cmenu-plugin",
+  "code-styler",
+  "obsidian-style-settings"
 ]

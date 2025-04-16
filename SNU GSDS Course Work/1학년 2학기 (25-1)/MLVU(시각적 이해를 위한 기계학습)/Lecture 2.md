@@ -15,4 +15,3 @@
 > Weighted Sum of input pixels
 
 
-
