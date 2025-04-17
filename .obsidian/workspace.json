@@ -11,14 +11,14 @@
             "id": "dac8aa95456e8e22",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Untitled.md",
-                "bFile": "Untitled.md",
-                "aRef": ""
+                "file": "SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 11. Plan & Learn with Tabular Methods.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Untitled"
+              "icon": "lucide-file",
+              "title": "Lec 11. Plan & Learn with Tabular Methods"
             }
           }
         ],
@@ -92,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.50247192382812
+    "width": 264.5
   },
   "right": {
     "id": "3f4c9c682dafe8b2",
@@ -164,12 +164,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 11. Plan & Learn with Tabular Methods.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Lec 11. Plan & Learn with Tabular Methods"
             }
           },
           {
@@ -202,21 +203,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dac8aa95456e8e22",
+  "active": "5e92712b924df7e9",
   "lastOpenFiles": [
-    "SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 9. TD Learning Control.md",
+    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 11. Plan & Learn with Tabular Methods/IMG-20250417202323.png",
+    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 11. Plan & Learn with Tabular Methods/IMG-20250417202243.png",
+    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 11. Plan & Learn with Tabular Methods/IMG-20250417202113.png",
+    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 11. Plan & Learn with Tabular Methods/IMG-20250417201339.png",
+    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 11. Plan & Learn with Tabular Methods/IMG-20250417201328.png",
+    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 11. Plan & Learn with Tabular Methods/IMG-20250417200943.png",
+    "SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Pseudocode.md",
+    "SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 11. Plan & Learn with Tabular Methods.md",
+    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Pseudocode/IMG-20250417200642.png",
+    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Pseudocode/IMG-20250417200605.png",
+    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 11. Plan & Learn with Tabular Methods",
+    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 11. Plan & Learn with Tabular Methods/IMG-20250417195537.png",
     "SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 10. n-step Bootstrapping.md",
+    "SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 9. TD Learning Control.md",
     "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 10. n-step Bootstrapping/IMG-20250417190258.png",
     "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 10. n-step Bootstrapping/IMG-20250417190147.png",
-    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 10. n-step Bootstrapping/IMG-20250417190018.png",
-    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 10. n-step Bootstrapping/IMG-20250417185851.png",
-    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 10. n-step Bootstrapping/IMG-20250417184345.png",
-    "SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Pseudocode.md",
-    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Pseudocode/IMG-20250417184000.png",
-    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 10. n-step Bootstrapping/IMG-20250417183823.png",
-    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 10. n-step Bootstrapping/IMG-20250417183253.png",
-    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 10. n-step Bootstrapping/IMG-20250417182413.png",
-    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Pseudocode/IMG-20250417181846.png",
     "Untitled.md",
     "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Pseudocode",
     "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 10. n-step Bootstrapping",
@@ -238,7 +242,6 @@
     "SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 18. Recurrent Neural Networks II (LSTMs & Seq2seq Models).md",
     "Assets/SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 18. Recurrent Neural Networks II (LSTMs & Seq2seq Models)",
     "Assets/SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)",
-    "Assets/SNU GSDS Course Work/1학년 1학기 (24-2)",
     "SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 19. Attention Mechanism & Transformers.md",
     "SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 17. Sequence Data & RNN.md",
     "SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 16. Training NN2.md",
@@ -248,7 +251,6 @@
     "Weekly Notes/2025-W16.md",
     "Weekly Notes/2025-W17.md",
     "SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 4. Linear Regression 2.md",
-    "SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 3. Linear Regression 1.md",
     "무제 파일.canvas",
     "Lab Intern/Stuff/Untitled.canvas",
     "무제 파일 1.canvas",
