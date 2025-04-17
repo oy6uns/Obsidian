@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 5. CNN.md",
-                "mode": "preview",
+                "file": "SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 9. TD Learning Control.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lec 5. CNN"
+              "title": "Lec 9. TD Learning Control"
             }
           }
         ],
@@ -164,13 +164,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 5. CNN.md",
+                "file": "SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 8..md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lec 5. CNN"
+              "title": "Outline of Lec 8."
             }
           },
           {
@@ -203,13 +203,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5e92712b924df7e9",
+  "active": "dac8aa95456e8e22",
   "lastOpenFiles": [
+    "SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 8. TD-learning.md",
+    "SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 9. TD Learning Control.md",
+    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 8. TD-learning",
+    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 8. TD-learning/IMG-20250417154153-5.png",
+    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 8. TD-learning/IMG-20250417154153-4.png",
+    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 8. TD-learning/IMG-20250417154153-3.png",
+    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 8. TD-learning/IMG-20250417154153-2.png",
+    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 8. TD-learning/IMG-20250417154153-1.png",
+    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 8.",
+    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)",
+    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 8. TD-learning/IMG-20250417154153.png",
+    "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 5. CNN.md",
+    "SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)",
     "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 6. Training NN 1.md",
     "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 7. Training NN 2.md",
     "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 9. RNN.md",
     "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 8. CNN Case Studies.md",
-    "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 5. CNN.md",
     "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 3. Loss Functions and Optimization.md",
     "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 4. NN & Backpropagation.md",
     "SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 7. Overfitting & Regurlarization.md",
@@ -224,22 +236,12 @@
     "SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 17. Sequence Data & RNN.md",
     "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 9. RNN/IMG-20250416232543.png",
     "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 9. RNN/IMG-20250416231759.png",
-    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 9. RNN/IMG-20250416231739.png",
-    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 9. RNN/IMG-20250416231302.png",
-    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 9. RNN/IMG-20250416231200.png",
-    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 9. RNN/IMG-20250416231138.png",
-    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 9. RNN/IMG-20250416231125.png",
-    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 9. RNN/IMG-20250416231100.png",
     "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 9. RNN",
     "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 8. CNN Case Studies",
     "SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 16. Training NN2.md",
     "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 7. Training NN 2",
     "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/중간고사 나올만한 문제.md",
-    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/중간고사 나올만한 문제",
-    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 6. Training NN 1",
-    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 5. CNN",
     "SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 14. CNN.md",
-    "Assets/SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 4. NN & Backpropagation",
     "SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 5. Classification 1.md",
     "Weekly Notes/2025-W16.md",
     "Weekly Notes/2025-W17.md",
@@ -249,8 +251,6 @@
     "SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Lec 2. Introduction to Supervised Learning.md",
     "SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/MLDL1(머신러닝&딥러닝).md",
     "SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/Midterm Summary.md",
-    "SNU GSDS Course Work/1학년 1학기 (24-2)/MLDL1(머신러닝&딥러닝)/FinalTerm Summary.md",
-    "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 1. Course Introduction.md",
     "무제 파일.canvas",
     "Lab Intern/Stuff/Untitled.canvas",
     "무제 파일 1.canvas",
