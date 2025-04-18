@@ -9,7 +9,7 @@
 ![[IMG-20250417184000.png]]
 
 
-# Lec 11. Plan & Learn with Tabular Methods
+# Lec 11. Plan & n Learn with Tabular Methods
 
 ## [[Lec 11. Plan & Learn with Tabular Methods#그래서 나온 해결책 📌 Dyna-Q Real Experience vs Simulated Experience]]
 ![[IMG-20250417200642.png]]

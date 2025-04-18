@@ -44,3 +44,4 @@ TD update rule에서
 - 시작점으로부터 왼쪽 또는 오른쪽으로 이동할 수 있고, $V(E→right \;terminal \;state)$ 가 1이다. 
 - 반복 횟수가 늘어날수록, True value function으로 수렴하는 모습을 확인할 수 있다. 
 - TD가 MC보다 빠르게 수렴하는 모습을 보인다. 
+
