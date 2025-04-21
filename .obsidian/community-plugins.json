@@ -7,8 +7,6 @@
   "obsidian-smart-typography",
   "templater-obsidian",
   "obsidian-excalidraw-plugin",
-  "colored-text",
-  "attachment-management",
   "calendar",
   "cmenu-plugin",
   "code-styler",
@@ -16,5 +14,8 @@
   "obsidian-latex-suite",
   "obsidian42-brat",
   "tistory",
-  "editing-toolbar"
+  "editing-toolbar",
+  "file-explorer-note-count",
+  "folder-notes",
+  "attachment-management"
 ]

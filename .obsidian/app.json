@@ -5,7 +5,7 @@
   "strictLineBreaks": false,
   "spellcheck": false,
   "trashOption": "local",
-  "attachmentFolderPath": "/",
+  "attachmentFolderPath": "Assets",
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "Letter",
