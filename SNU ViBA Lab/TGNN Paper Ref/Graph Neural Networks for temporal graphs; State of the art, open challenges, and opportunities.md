@@ -54,14 +54,14 @@
 
 
 # 6. 다양한 TGNN 방법론들
-![[Assets/blog/content/GNN/Graph Neural Networks for temporal graphs; State of the art, open challenges, and opportunities/IMG-20250421200037.png]]
+![[IMG-20250421200037.png]]
 ## 6.1 Snapshot-based Models
 **“Snapshot”**: <span style="background:rgba(205, 244, 105, 0.55)">일정한 시간 간격</span>으로 전체 그래프(노드/엣지/속성 등)의 스냅샷을 연속적으로 나열한다. 
 - 대표적 예시: 하루/1시간마다 찍힌 전체 네트워크 상태
 ### 6.1.1 Model Evolution
 - **GNN 모델 파라미터 자체**를 시간에 따라 업데이트
 - 대표 모델:
-	- [EvolveGCN]: GCN의 파라미터를 RNN(LSTM, GRU 등)으로 시간에 따라 진화시킨다. ![[Assets/blog/content/GNN/Graph Neural Networks for temporal graphs; State of the art, open challenges, and opportunities/IMG-20250421200037-1.png]]
+	- [EvolveGCN]: GCN의 파라미터를 RNN(LSTM, GRU 등)으로 시간에 따라 진화시킨다. ![[IMG-20250421201146-1.png]]
 ### 6.1.2 Embedding Evolution
 - 각 시점의 노드 임베딩(h)을 RNN(혹은 attention)으로 시간축 상에서 직접 업데이트
 $$h_{v(t_i)}=REC(h_v(t_{i-j}), \dots)$$

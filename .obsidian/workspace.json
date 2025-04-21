@@ -11,14 +11,12 @@
             "id": "dac8aa95456e8e22",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "blog/content/GNN/Graph Neural Networks for temporal graphs; State of the art, open challenges, and opportunities.md",
-                "mode": "source",
-                "source": false
+                "file": "Assets/blog/content/GNN/Graph Neural Networks for temporal graphs; State of the art, open challenges, and opportunities/IMG-20250421200037.png"
               },
-              "icon": "lucide-file",
-              "title": "Graph Neural Networks for temporal graphs; State of the art, open challenges, and opportunities"
+              "icon": "lucide-image",
+              "title": "IMG-20250421200037"
             }
           }
         ],
@@ -164,13 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/content/GNN/Graph Neural Networks for temporal graphs; State of the art, open challenges, and opportunities.md",
+                "file": "blog/content/GNN/Graph Neural Networks for Temporal Graphs(survey paper).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Graph Neural Networks for temporal graphs; State of the art, open challenges, and opportunities"
+              "title": "Outline of Graph Neural Networks for Temporal Graphs(survey paper)"
             }
           },
           {
@@ -199,50 +197,51 @@
       "random-note:Open random note": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
+      "obsidian42-brat:BRAT": false,
       "periodic-notes:Open this week": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "dac8aa95456e8e22",
   "lastOpenFiles": [
+    "Assets/blog/content/GNN/Graph Neural Networks for Temporal Graphs(survey paper)/IMG-20250421202904.png",
+    "Assets/blog/content/GNN/Graph Neural Networks for Temporal Graphs(survey paper)/IMG-20250421201146-1.png",
+    "Assets/blog/content/GNN/Graph Neural Networks for temporal graphs; State of the art, open challenges, and opportunities/IMG-20250421200807.png",
     "Assets/blog/content/GNN/Graph Neural Networks for temporal graphs; State of the art, open challenges, and opportunities/IMG-20250421200037.png",
-    "blog/docs/images/Graph Neural Networks for temporal graphs; State of the art, open challenges, and opportunities 1/IMG-20250421200037.png",
-    "blog/docs/images/Graph Neural Networks for temporal graphs; State of the art, open challenges, and opportunities 1/IMG-20250421200037-1.png",
-    "blog/docs/images/Graph Neural Networks for temporal graphs; State of the art, open challenges, and opportunities 1",
-    "Assets/blog/content/GNN/Graph Neural Networks for temporal graphs; State of the art, open challenges, and opportunities/IMG-20250421200037-1.png",
+    "Assets/blog/content/GNN/Graph Neural Networks for temporal graphs; State of the art, open challenges, and opportunities/asdf",
     "SNU ViBA Lab/TGNN Paper Ref/Graph Neural Networks for temporal graphs; State of the art, open challenges, and opportunities.md",
-    "blog/content/GNN/Graph Neural Networks for temporal graphs; State of the art, open challenges, and opportunities.md",
+    "blog/content/GNN/IMG-20250421200807 1.png",
+    "blog/content/GNN/Graph Neural Networks for Temporal Graphs(survey paper).md",
+    "Assets/blog/content/GNN/Graph Neural Networks for Temporal Graphs(survey paper)",
+    "Assets/blog/content/GNN/Graph Neural Networks for Temporal Graphs(survey paper)/IMG-20250421201205.png",
+    "blog/content/A",
+    "blog/content/GNN/Untitled",
+    "docs.md",
+    "docs/images/Graph.md",
+    "docs/images",
+    "docs",
+    "blog/docs/images/Graph Neural Networks for temporal graphs; State of the art, open challenges, and opportunities 1",
     "blog/README.md",
     "Assets/blog/content/GNN/Graph Neural Networks for temporal graphs; State of the art, open challenges, and opportunities",
     "Assets/blog/content/GNN",
     "Assets/blog/content",
-    "Assets/blog",
-    "blog/content/GNN",
     "blog/content/Untitled.md",
     "Temporal.md",
     "Assets/SNU ViBA Lab/TGNN Paper Ref/Graph Neural Networks for temporal graphs; State of the art, open challenges, and opportunities/IMG-20250421165918.png",
     "Assets/SNU ViBA Lab/TGNN Paper Ref/Graph Neural Networks for temporal graphs; State of the art, open challenges, and opportunities/IMG-20250421170217.png",
     "Assets/스크린샷 2025-04-21 오후 4.56.32.png",
     "Templates/Weekly planner.md",
-    "Assets/SNU ViBA Lab/TGNN Paper Ref/Graph Neural Networks for temporal graphs; State of the art, open challenges, and opportunities",
-    "Assets/SNU ViBA Lab/TGNN Paper Ref",
-    "Assets/SNU ViBA Lab",
     "스크린샷 2025-04-21 오후 4.44.17.png.md",
     "스크린샷 2025-04-21 오후 4.43.23.png",
     "SNU ViBA Lab/TGNN Paper Ref/TGNN Paper Ref.md",
     "SNU ViBA Lab/Temporal GNN.md",
-    "스크린샷 2025-04-21 오후 4.44.17.png",
     "EvolveGCN.md",
     "Weekly Notes/2025-W17.md",
-    "Pasted image 20250421105042.png",
     "SNU ViBA Lab/논문 아이디어.md",
     "SNU ViBA Lab/Graph Neural Network 주요 목차 및 개념.md",
     "SNU ViBA Lab/TGNN Paper Ref/TGNN Survay Paper.md",
-    "SNU ViBA Lab/TGNN Paper Ref",
     "blog/content/archive/dohun's 어록.md",
     "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 2. First Approaches for Image Classification.md",
-    "스크린샷 2025-04-21 오후 12.45.56.png",
     "blog/content/life/food/hi~.md",
     "blog/docs/configuration.md",
     "blog/docs/plugins/TagPage.md",
@@ -250,8 +249,6 @@
     "blog/docs/plugins/SyntaxHighlighting.md",
     "blog/docs/plugins/Static.md",
     "blog/docs/plugins/RoamFlavoredMarkdown.md",
-    "blog/docs/plugins/RemoveDrafts.md",
-    "blog/docs/plugins/ObsidianFlavoredMarkdown.md",
     "무제 파일.canvas",
     "Lab Intern/Stuff/Untitled.canvas",
     "무제 파일 1.canvas",
