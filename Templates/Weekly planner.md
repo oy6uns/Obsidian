@@ -21,7 +21,7 @@
 - **메모**
   - 
 
-### {{date+2d:YYYY-MM-DD}} %> (Wednesday)
+### {{date+2d:YYYY-MM-DD}} (Wednesday)
 - **할 일**
   - [ ] 
   - [ ] 
