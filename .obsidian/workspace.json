@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KRISO.md",
+                "file": "SNU ViBA Lab/TGNN 공부 일지.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "KRISO"
+              "title": "TGNN 공부 일지"
             }
           }
         ],
@@ -205,14 +205,19 @@
   },
   "active": "dac8aa95456e8e22",
   "lastOpenFiles": [
-    "ㅁㄴㅇㄹ.md",
+    "SNU ViBA Lab/TGNN Paper Ref/Graph Neural Networks for temporal graphs; State of the art, open challenges, and opportunities.md",
+    "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 15. Image Segmentation.md",
+    "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 13. Attention & Transformer 2/IMG-20250424114118.png",
+    "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 12. Attention & Transformers 1/Lec 12. Attention & Transformers 1.md",
+    "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 13. Attention & Transformer 2/Lec 13. Attention & Transformer 2.md",
+    "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Untitled.md",
     "KRISO.md",
+    "ㅁㄴㅇㄹ.md",
     "Untitled.md",
     "SNU ViBA Lab/TGNN 공부 일지.md",
     "SNU ViBA Lab/TGNN 공부 일지/IMG-20250430145057.png",
     "SNU ViBA Lab/TGNN 공부 일지",
     "SNU ViBA Lab/TGNN 공부 일지/IMG-20250430143722.png",
-    "SNU ViBA Lab/TGNN Paper Ref/Graph Neural Networks for temporal graphs; State of the art, open challenges, and opportunities.md",
     "Weekly Notes/2025-W18.md",
     "Assignments.md",
     "SNU ViBA Lab/TGNN Paper Ref/TGNN Paper Ref.md",
@@ -220,7 +225,6 @@
     "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 13. Attention & Transformer 2.md",
     "Weekly Notes/2025-W17.md",
     "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 13. Attention & Transformer 2",
-    "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 13. Attention & Transformer 2/IMG-20250424114118.png",
     "SNU GSDS Course Work/1학년 2학기 (25-1)/MLVU(시각적 이해를 위한 기계학습)/Lec 12. Attention & Transformers 1.md",
     "Weekly Notes/2025-W16.md",
     "SNU GSDS Course Work/1학년 2학기 (25-1)/RL(강화학습)/Lec 11. Plan & Learn with Tabular Methods.md",
@@ -243,14 +247,9 @@
     "Assets/blog/content/GNN/Graph Neural Networks for Temporal Graphs(survey paper)",
     "blog/content/A",
     "blog/content/GNN/Untitled",
-    "docs/images/Graph.md",
     "docs/images",
     "docs",
     "blog/docs/images/Graph Neural Networks for temporal graphs; State of the art, open challenges, and opportunities 1",
-    "blog/README.md",
-    "blog/content/Untitled.md",
-    "Temporal.md",
-    "Templates/Weekly planner.md",
     "무제 파일.canvas",
     "Lab Intern/Stuff/Untitled.canvas",
     "무제 파일 1.canvas",
