@@ -15,6 +15,28 @@ multi-head attention의 역할 & masked attention network 왜 사용하는지
 ![[IMG-20250424114118.png]]
 자기 주변만 보는게 아니라, 멀리 있는 픽셀을 봐도 도움이 되는 경우도 가끔 있기에, CNN보다 성능이 조금 더 잘 나왔다고 볼 수 있다. 
 
+# Data-efficient image Transformers
+- Teacher 모델이 있고, 선생님이 가르쳐주는 것을 흡수해가며 학습하는 구조
+- Teacher 모델은 transformer보다 가벼운 CNN 모델을 사용
+![[IMG-20250608192338.png]]
+### Regular training
+soft prediction(확률 값) → hard prediction(class label) → 정답과 비교
+### Distillation
+Teacher가 만들어내는 분포와 Student가 내는 분포를 흉내내게끔 추가적으로 학습시키준다.
+#### Loss 식
+![[IMG-20250608194444.png]]
+- <font color="#d83931">빨간 부분</font>(확률값): 선생님이 만든 것에 softmax를 취해준것과 학생이 만든 것에 softmax를 취해준 것 간의 KL divergence를 계산한다. 기존 Loss에 이걸 추가해준다. 
+- <font color="#245bdb">파란부분</font>(실제 정답): 선생님이 만든 답안과 학생이 만든 답안과의 CrossEntropy를 추가로 준다
+
+> [!warning] 청출어람?
+> teacher(CNN)은 Inductive bias of spatial locality를 주고, 
+> student model은 far-away patches에 대한 relation을 transformer로 추가적으로 배울 수 있기 때문에 더 잘한다고 할 수 있다. 
+### ViT의 문제점
+1. too much computational cost
+2. 
+
+
+
 # Swin Transformer
 
 > [!important] Swin Transformer
